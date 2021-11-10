@@ -1,9 +1,16 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import LandingComponent from './components/landing/LandingComponent';
+import BlogComponent from './components/blog/BlogComponent';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Navbar />
+      {/* <LandingComponent /> */}
+      <BlogComponent />
+      <Footer />
     </div>
   );
 }
